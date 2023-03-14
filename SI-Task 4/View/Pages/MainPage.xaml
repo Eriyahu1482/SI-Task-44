@@ -30,53 +30,21 @@
                         Style="{StaticResource BTN}">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock
-                                VerticalAlignment="Center"
-                                FontSize="20"
-                                Text="Шашлык">
-                                <TextBlock.Style>
-                                    <Style TargetType="TextBlock">
-                                        <Style.Triggers>
-                                            <Trigger Property="IsMouseDirectlyOver" Value="False">
-                                                <Setter Property="Foreground" Value="DarkGreen" />
-
-                                            </Trigger>
-                                            <Trigger Property="IsMouseDirectlyOver" Value="True">
-                                                <Setter Property="Foreground" Value="Green" />
-
-                                            </Trigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </TextBlock.Style>
-                            </TextBlock>
+                                Style="{StaticResource TText}"
+                                Text="Открыть"/>
                         </StackPanel>
                     </Button>
                     <Button
-                        x:Name="Back"
+                        x:Name="Close"
                         Grid.Row="1"
                         Width="150"
                         Height="50"
-                        Click="Back_Click"
+                        Click="Close_Click"
                         Style="{StaticResource BTN}">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock
-                                VerticalAlignment="Center"
-                                FontSize="20"
-                                Text="Выход">
-                                <TextBlock.Style>
-                                    <Style TargetType="TextBlock">
-                                        <Style.Triggers>
-                                            <Trigger Property="IsMouseDirectlyOver" Value="False">
-                                                <Setter Property="Foreground" Value="DarkGreen" />
-
-                                            </Trigger>
-                                            <Trigger Property="IsMouseDirectlyOver" Value="True">
-                                                <Setter Property="Foreground" Value="Green" />
-
-                                            </Trigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </TextBlock.Style>
-                            </TextBlock>
+                                Style="{StaticResource TText}"
+                                Text="Выход"/>
                         </StackPanel>
                     </Button>
                 </Grid>

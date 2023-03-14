@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static SI_Task_4.Core.Core;
 
 namespace SI_Task_4.View.Pages
 {
@@ -25,14 +26,14 @@ namespace SI_Task_4.View.Pages
             InitializeComponent();
         }
 
-        private void Back_Click(object sender, RoutedEventArgs e)
+        private void Close_Click(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.Shutdown();
         }
 
         private void MBTN1_Click(object sender, RoutedEventArgs e)
         {
-
+            CoreNavigate.MyCore?.Navigate(new MainPage1());
         }
     }
 }

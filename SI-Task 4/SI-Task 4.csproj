@@ -11,6 +11,20 @@
   <ItemGroup>
     <None Remove="Images\Barotrauma.jpg" />
     <None Remove="Images\BG_GRID.jpg" />
+    <None Remove="Images\Task1.jpg" />
+    <None Remove="Images\Task10.jpg" />
+    <None Remove="Images\Task11.jpg" />
+    <None Remove="Images\Task12.jpg" />
+    <None Remove="Images\Task13.jpg" />
+    <None Remove="Images\Task14.jpg" />
+    <None Remove="Images\Task2.jpg" />
+    <None Remove="Images\Task3.jpg" />
+    <None Remove="Images\Task4.jpg" />
+    <None Remove="Images\Task5.jpg" />
+    <None Remove="Images\Task6.jpg" />
+    <None Remove="Images\Task7.jpg" />
+    <None Remove="Images\Task8.jpg" />
+    <None Remove="Images\Task9.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +37,48 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\BG_GRID.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task13.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task14.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Task9.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
